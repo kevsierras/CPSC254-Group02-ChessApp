@@ -4,8 +4,9 @@ This is our main driver file. It will be responsible for handling user input and
 import pygame as py
 import chessEngine
 
-WIDTH = 800
-HEIGHT = 600
+# WIDTH and HEIGHT are 512 to evenly show all the squares
+WIDTH = 512
+HEIGHT = 512
 DIMENSION = 8 # dimension of the chess board
 SQ_SIZE = HEIGHT // DIMENSION
 
@@ -37,6 +38,7 @@ def main():
                 running = False
 
         drawGameState(screen, gameState)
+        py.display.flip()
 
 '''
 Responsible for the graphics of the current game state
