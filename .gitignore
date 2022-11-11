@@ -2,7 +2,7 @@
 __pycache__/chessEngine.cpython-310.pyc
 __pycache__/chessImages.cpython-38.pyc
 __pycache__/chessEngine.cpython-38.pyc
-venv
+venv/*
 
 # replit files 
 replit.nix
