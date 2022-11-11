@@ -34,14 +34,6 @@ class MovePieces():
   def __init__(self, startSquare, endSquare, board):
     # startSquare (tuple) and endSquare (tuple) is passed to check whether the move is a valid move
     # passing the board also updates the game board
-    # startRow, startColumn and endRow, endColumn are abstracted to better keep track of a players moves
-    # self.startRow = startSquare[0]
-    # self.startColumn = startSquare[1]
-    # self.endRow = endSquare[0]
-    # self.endColumn = endSquare[1]
-    # self.pieceMoved = board[self.startRow][self.startColumn]
-    # self.pieceCaptured = board[self.endRow][self.endColumn]
-
     self.startSquare = startSquare
     self.endSquare = endSquare
     # keep track if a piece has moved and captured
