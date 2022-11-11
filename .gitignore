@@ -1,7 +1,5 @@
 # files to be ignored
-__pycache__/chessEngine.cpython-310.pyc
-__pycache__/chessImages.cpython-38.pyc
-__pycache__/chessEngine.cpython-38.pyc
+__pycache__/*
 venv/*
 
 # replit files 

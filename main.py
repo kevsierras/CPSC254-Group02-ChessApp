@@ -12,7 +12,7 @@ SQ_SIZE = HEIGHT / DIMENSION
 IMAGES = {}
 
 '''
-The main driver for our code. This will handle user input
+Main driver, will handle user input
 '''
 def startGame(): 
     py.init()
